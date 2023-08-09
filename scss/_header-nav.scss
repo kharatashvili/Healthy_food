@@ -1,0 +1,35 @@
+.header {
+  background-color: #777;
+}
+.header__container {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 33px 0;
+}
+.header__logo {
+}
+.header__logo a {
+  display: flex;
+  gap: 9px;
+  vertical-align: sub;
+  align-items: self-end;
+  margin: 0 0 3px 0;
+}
+.header__logo-icon {
+}
+.header__nav {
+  display: flex;
+}
+.header__menu {
+  display: flex;
+  gap: 45px;
+  align-self: center;
+}
+.header__link {
+  // margin-right: 55px;
+}
+// .header__menu li:not(:last-child) {
+//   margin-right: 55px;
+// }
